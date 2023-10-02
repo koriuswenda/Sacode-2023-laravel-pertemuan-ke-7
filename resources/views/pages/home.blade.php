@@ -1,10 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'home')
+@section('title', 'Home')
 
-@section('content')   
-    
-    
+@section('content')
+
     <!-- section START -->
     <section>
         <h1>Welcome to our website!</h1>
@@ -13,4 +12,5 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore officiis tempore explicabo perferendis eius voluptatibus.</p>
     </section>
     <!-- section END -->
-    @endsection
+
+@endsection

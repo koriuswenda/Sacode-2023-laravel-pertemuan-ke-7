@@ -21,8 +21,8 @@ Route::get('/profile', function () {
     return view('pages/profile');
 });
 // product
-Route::get('/product', function () {
-    return view('pages/product');
+Route::get('/products', function () {
+    return view('pages/products');
 });
 // Contact
 Route::get('/contact', function () {
